@@ -6,7 +6,7 @@ export default function Results(props) {
     return (
       <div className="Results">
           <h2>{props.results.definition}</h2>
-          {props.results.meaning.map(function (meaning, index) {
+          {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
               <Meaning meaning={meaning} />
@@ -18,4 +18,4 @@ export default function Results(props) {
   } else {
     return null;
   }
-}
+} 
