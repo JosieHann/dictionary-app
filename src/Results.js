@@ -5,13 +5,14 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
+        <section>
         {props.results.meanings.map(function (meaning, index) { 
           return (
             <section key={index}>
               <Meaning meaning={meaning} />
-            </section>
+              </section>
           );
-        })}
+        })} </section>
       </div>
     );
   } else {
