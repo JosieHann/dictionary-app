@@ -10,7 +10,7 @@ function App() {
       <main>
         <Dictionary />
       </main>
-    <footer className='App-footer'> <small>Coded by Josie Hann</small></footer>
+    <footer className='App-footer'> <small>Coded by Josie Hann Hosted on <a href='https://extraordinary-pixie-e7bb51.netlify.app/'>Netlify</a> and open-sourced on <a href='https://github.com/JosieHann/dictionary-app'>Github</a></small></footer>
       </div>
     </div>
   );

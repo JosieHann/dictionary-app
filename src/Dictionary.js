@@ -4,6 +4,8 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 
+
+
 export default function Dictionary () {
     let [Keyword, setKeyword] = useState("");
     let [results, setResults] = useState(null);
@@ -19,13 +21,13 @@ export default function Dictionary () {
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${Keyword}&key=${apiKey}`;
         axios.get(apiUrl).then(handleResponse);
     }
-   
+    
     return (
         <div className="Dictionary">
           <section> 
-            <h3>Word Search<br/>Look It Up🔍</h3>
+            <h2>Word Dictionary 📚 Look It Up🔍</h2>
           <form onSubmit={search}>
-            <input type="search" onChange={handleKeywordChange} autoFocus={true}/>
+            <input type="search" onChange={handleKeywordChange} autoFocus={true} placeholder="🔍" />
           </form>
           </section>
           <Results results={results} />
