@@ -1,14 +1,14 @@
 import React from "react";
 
-
-export default function Phonetics(props) {
-  if (props.phonetic) {
-    return (
-      <div className="Phonetics">
-        <h4>{props.phonetic}</h4>
-      </div>
-    );
-  } else {
-    return null;
-  }
+export default function Phonetic(props) {
+  console.log(props.phonetic);
+  return (
+    <div className="Phonetic">
+      <a href={props.phonetic.audio} target="_blank">
+        Listen
+      </a>
+      <br />
+      {props.phonetic.text}
+    </div>
+  );
 }
