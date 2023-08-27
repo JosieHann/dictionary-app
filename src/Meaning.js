@@ -3,8 +3,6 @@ import "./Meaning.css";
 import Synonyms from "./Synonyms";
 import "./Synonyms.css";
 
-
-
 export default function Meaning(props) {
   return (
     <div className="Meaning">
@@ -14,10 +12,10 @@ export default function Meaning(props) {
           <div key={index}>
             <div className="definition">{definition.definition}</div>
             <div className="example">{definition.example}</div>
-            <Synonyms synonyms={props.meaning.definitions[1].synonyms} />
           </div>
         );
       })}
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }
