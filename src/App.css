@@ -10,3 +10,8 @@ color:  rgb(0, 0, 0);
 a {
     color: rgb(173, 54, 173);
 }
+
+  .container {
+    max-width: 800px;
+    text-align: center;
+  }
