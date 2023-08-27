@@ -5,10 +5,10 @@ font-size: 18px;
 font-weight: bold;
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 padding: 8px;
-color:  rgb(0, 0, 0);
+color:  rgb(0, 0, 0, 0.8);
 }
 a {
-    color: rgb(173, 54, 173);
+    color:rgb(216,142,254);
 }
 
   .container {
