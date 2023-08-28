@@ -12,5 +12,9 @@
  .Results h2 {
     font-size: 55px;
     letter-spacing: 1.5px;
-    
  }
+ @media (max-width: 700px) {
+    h2 {
+      font-size: 36px;
+    }
+  }
