@@ -47,4 +47,7 @@ input::placeholder {
     h2 {
       font-size: 36px;
     }
+    .Dictionary .hint {
+        font-size: 10px;
+    }
   }
